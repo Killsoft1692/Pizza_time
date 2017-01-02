@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block menu %}
+<h2>Nice to see you in Pizza_Time</h2>
+    {% for item in pizza %}
+
+        <li>{{ item.name }}</li>
+        <li>{{ item.price}}</li>
+        <li>{{ item.additional_info }}</li>
+        <li>{{ item.request_time }}</li>
+
+    {% endfor %}
+
+{% endblock %}

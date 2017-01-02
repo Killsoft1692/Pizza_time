@@ -1,0 +1,8 @@
+pizza:
+    resource: "@PizzaBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
